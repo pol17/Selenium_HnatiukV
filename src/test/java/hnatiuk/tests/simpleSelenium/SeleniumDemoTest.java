@@ -1,19 +1,24 @@
 package hnatiuk.tests.simpleSelenium;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class SeleniumDemoTest {
+public class SeleniumDemoTest extends BaseTest { //наследуемся от BaseTest, в котором все основные настройки длятестов ниже
 
     @Test
-    void test1() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Acer\\IdeaProjects\\Selenium_HnatiukV\\src\\test\\resources\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+    void test1() {
+        //Dimension dimension = new Dimension(1020, 800); //dimension - указываем размер окна браузера в пикселях
+        //driver.manage().window().setSize(new Dimension(1020, 800)); //а тут передаем размер (dimension) и открываем
+        //driver.manage().window().setSize(dimension);
         driver.get("https://mvnrepository.com/");
-        driver.findElement(By.linkText("Concord SDK")).click();
-        Thread.sleep(5000);
+        driver.findElement(By.linkText("Popular Categories")).click();
+        //Thread.sleep(15000); //аналог implicitlyWait (неяявное ожидание)
+    }
+
+    @Test
+    void test2() {
+        driver.get("https://mvnrepository.com/");
+        driver.findElement(By.linkText("Popular Tags")).click();
         driver.quit();
     }
 }

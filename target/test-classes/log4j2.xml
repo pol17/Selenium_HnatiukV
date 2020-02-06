@@ -17,7 +17,7 @@
     </Appenders>
     <Loggers>
         <!--Set appropriate log level (`debug` shows all levels), otherwise some logs won't be displayed-->
-        <Root level="all">
+        <Root level="info">
             <AppenderRef ref="Console" />
             <AppenderRef ref="RollingFile" />
         </Root>
