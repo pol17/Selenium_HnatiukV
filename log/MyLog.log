@@ -1,0 +1,13 @@
+2020-37-06 19:37:18 [main] INFO  LoggerTest:11 - Info log PARAMETER
+2020-37-06 19:37:18 [main] WARN  LoggerTest:12 - Warn log PARAMETER, PARAMETER
+2020-37-06 19:37:18 [main] ERROR LoggerTest:13 - Error log
+2020-45-06 19:45:11 [main] INFO  LoggerTest:11 - Info log PARAMETER
+2020-45-06 19:45:11 [main] WARN  LoggerTest:12 - Warn log PARAMETER, PARAMETER
+2020-45-06 19:45:11 [main] ERROR LoggerTest:13 - Error log
+2020-03-06 20:03:36 [main] INFO  LoggerWithLombokTest:13 - Info log with lombok PARAMETER
+2020-03-06 20:03:36 [main] WARN  LoggerWithLombokTest:14 - Warn log with lombok PARAMETER, PARAMETER
+2020-03-06 20:03:36 [main] ERROR LoggerWithLombokTest:15 - Error log with lombok
+2020-04-06 20:04:48 [main] INFO  LoggerWithLombokTest:13 - Info log with lombok PARAMETER
+2020-04-06 20:04:48 [main] WARN  LoggerWithLombokTest:14 - Warn log with lombok PARAMETER, PARAMETER
+2020-04-06 20:04:48 [main] ERROR LoggerWithLombokTest:15 - Error log with lombok
+2020-04-06 20:04:48 [main] DEBUG LoggerWithLombokTest:16 - Debug log with lombok
