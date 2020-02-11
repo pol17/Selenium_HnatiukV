@@ -27,3 +27,10 @@
 2020-20-06 21:20:22 [main] INFO  SeleniumDemoTest:30 - Driver was configured
 2020-20-06 21:20:33 [main] INFO  SeleniumDemoTest:54 - Quiting driver
 2020-20-06 21:20:33 [main] INFO  SeleniumDemoTest:56 - Driver was quit
+2020-37-06 21:37:56 [main] INFO  SeleniumDemoTest:18 - Driver initialisation
+2020-38-06 21:38:09 [main] INFO  SeleniumDemoTest:21 - Driver was initialized
+2020-38-06 21:38:09 [main] INFO  SeleniumDemoTest:23 - Configuring driver
+2020-38-06 21:38:13 [main] INFO  SeleniumDemoTest:26 - Driver was configured
+2020-49-11 19:49:03 [main] INFO  LoggerWithLombokTest:9 - Info log PARAMETER
+2020-49-11 19:49:03 [main] WARN  LoggerWithLombokTest:10 - Warn log PARAMETER, PARAMETER
+2020-49-11 19:49:03 [main] ERROR LoggerWithLombokTest:11 - Error log

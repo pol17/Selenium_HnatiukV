@@ -1,8 +1,8 @@
 package hnatiuk.tests.loggers;
 
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
-/*@Log4j2
+@Slf4j
 public class LoggerWithLombokTest {
     public static void main(String[] args) {
         String myParameter = "PARAMETER";
@@ -11,4 +11,4 @@ public class LoggerWithLombokTest {
         log.error("Error log");
         log.debug("Debug log");
     }
-}*/
+}
