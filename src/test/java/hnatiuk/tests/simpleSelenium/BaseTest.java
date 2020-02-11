@@ -35,4 +35,9 @@ public class BaseTest {
             Log.info("Driver was quit");
         }
     }
+
+    //пример выноса url в отдельный метод
+    void openIndexPage() {
+        driver.get("http://v3.test.itpmgroup.com");
+    }
 }
