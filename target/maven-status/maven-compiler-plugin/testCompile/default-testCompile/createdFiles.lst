@@ -1,1 +1,10 @@
-hnatiuk\tests\TestDemo.class
+hnatiuk\tests\simpleSelenium\SeleniumDemoTest.class
+hnatiuk\tests\loggers\LoggerWithLombokTest.class
+hnatiuk\tests\simpleSelenium\BaseTest.class
+hnatiuk\tests\testNG\BaseTest.class
+hnatiuk\tests\loggers\LoggerTest.class
+hnatiuk\tests\testNG\TestDemo.class
+hnatiuk\tests\testNG\TestDemo2.class
+hnatiuk\tests\simpleSelenium\InitialDemo$1.class
+hnatiuk\tests\simpleSelenium\InitialDemo.class
+hnatiuk\tests\simpleSelenium\SeleniumApiDemo.class

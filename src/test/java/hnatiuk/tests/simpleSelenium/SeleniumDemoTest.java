@@ -3,7 +3,7 @@ package hnatiuk.tests.simpleSelenium;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class SeleniumDemoTest extends BaseTest { //наследуемся от BaseTest, в котором все основные настройки длятестов ниже
+public class SeleniumDemoTest extends BaseTest { //наследуемся от BaseTest, в котором все основные настройки для тестов ниже
 
     @Test
     void test1() {
