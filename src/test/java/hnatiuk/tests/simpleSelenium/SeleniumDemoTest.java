@@ -12,7 +12,7 @@ public class SeleniumDemoTest extends BaseTest { //наследуемся от B
         //driver.manage().window().setSize(dimension);
         driver.get("https://mvnrepository.com/");
         driver.findElement(By.linkText("Popular Categories")).click();
-        //Thread.sleep(15000); //аналог implicitlyWait (неяявное ожидание)
+        //Thread.sleep(15000); //аналог implicitlyWait (неявное ожидание)
     }
 
     @Test

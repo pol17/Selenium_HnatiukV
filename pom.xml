@@ -15,6 +15,12 @@
         <testng.version>7.1.0</testng.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <log4j.version>2.12.1</log4j.version>
+        <maven-failsafe.version>3.0.0-M3</maven-failsafe.version>
+        <aspectj.version>1.9.5</aspectj.version>
+
+        <!--Tests configuration (see maven-failsafe-plugin)-->
+        <default.suiteXmlFile>src/test/resources/defaultSuite.xml</default.suiteXmlFile>
+        <browserName>CHROME</browserName>
     </properties>
 
     <dependencies>
@@ -62,6 +68,13 @@
             <version>${log4j.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>3.8.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -75,7 +88,56 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
+            <!--Runs integration/system tests safely (no abortion) and parallels them-->
+            <!--Runs integration/system tests safely (no abortion) and parallels them-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>${maven-failsafe.version}</version>
+                <configuration>
+                    <!--<parallel>methods</parallel>-->
+                    <!--Define number of threads: <mvn clean install -Dthreads=2>-->
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <!--<threadCount>${threads}</threadCount>-->
+                    <!--<forkCount>${forks}</forkCount>-->
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${default.suiteXmlFile}</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <screenshotDirectory>${project.build.directory}/screenshot</screenshotDirectory>
+                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                        <browser>${browserName}</browser>
+                        <!--<desiredBrowserVersion>${browser.version}</desiredBrowserVersion>
+                        <desiredPlatform>${platform}</desiredPlatform>
+                        <remoteDriver>${remote}</remoteDriver>
+                        <selenoidURL>${selenoidURL}</selenoidURL>-->
+                    </systemPropertyVariables>
+                    <!--<includes>
+                        <include>**/*WD.java</include>
+                    </includes>-->
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <properties>
+                        <reportDirectory>${project.build.directory}/allure-report</reportDirectory>
+                        <allure.issues.tracker.pattern>http://example.com/%s</allure.issues.tracker.pattern>
+                    </properties>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
-
 </project>
