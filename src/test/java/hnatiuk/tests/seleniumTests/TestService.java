@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 import java.util.ArrayList;
@@ -34,6 +35,11 @@ public class TestService {
             webDriverThreadPool.add(webDriverThread);
             return webDriverThread;
         });
+    }
+
+    @BeforeClass
+    protected void setUp() {
+        log.info("In TestService Before Class");
     }
 
     public static WebDriver getDriver() {

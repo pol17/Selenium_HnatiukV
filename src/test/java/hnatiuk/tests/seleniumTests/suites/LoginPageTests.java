@@ -1,12 +1,17 @@
 package hnatiuk.tests.seleniumTests.suites;
 
 import hnatiuk.api.components.pages.LoginPage;
+import hnatiuk.api.components.sections.LoginSection;
 import hnatiuk.tests.seleniumTests.TestService;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class LoginPageTests extends TestService {
+    private static final String USERNAME = "Student";
+    private static final String PASSWORD = "909090";
+
     private WebDriver driver;
 
     @Override
@@ -22,9 +27,37 @@ public class LoginPageTests extends TestService {
         loginPage.open()
                 .verifyTitleIs("Учет запчастей")
                 .getLoginSection()
-                .enterUsername("Student")
-                .enterPassword("909090")
+                .enterUsername(USERNAME)
+                .enterPassword(PASSWORD)
                 .getSubmitButton()
                 .clickSubmitButton();
+    }
+
+    @Test(dataProvider = "invalidUserCredentials")
+    void failWhenLoginWithInvalidUserCredentials(String username, String userpassword) {
+        LoginPage loginPage = new LoginPage(driver, "http://v3.test.itpmgroup.com");
+        loginPage.open()
+                .verifyTitleIs("Учет запчастей");
+        LoginSection loginSection = loginPage.getLoginSection();
+        loginSection
+                .enterUsername(username)
+                .enterPassword(userpassword)
+                .getSubmitButton()
+                .elementIsVisible();
+                /*.clickSubmitButton()
+                .verifySubmitButtonIsNotVisible()
+                .verifyNumbersOfSubmitButtonsIs(2);*/
+    }
+
+    @DataProvider
+    private Object[][] invalidUserCredentials() {
+        return new Object[][]{
+                {"asdf", PASSWORD},
+                {"", PASSWORD},
+                {"as", PASSWORD},
+                {USERNAME, "1234"},
+                {USERNAME, ""},
+                {USERNAME, "12*)"}
+        };
     }
 }

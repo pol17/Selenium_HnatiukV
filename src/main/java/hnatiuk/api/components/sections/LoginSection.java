@@ -1,10 +1,12 @@
 package hnatiuk.api.components.sections;
 
+import hnatiuk.api.components.buttons.Button;
 import hnatiuk.api.components.buttons.SubmitButton;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginSection {
+    private final By rootSelector = By.className("login-box-body");
     private static final By USERNAME_INPUT_SELECTOR = By.name("_username");
     private static final By PASSWORD_INPUT_SELECTOR = By.id("password");
 
@@ -14,8 +16,12 @@ public class LoginSection {
         this.driver = driver;
     }
 
-    public SubmitButton getSubmitButton() {
+    /*public SubmitButton getSubmitButton() {
         return new SubmitButton(this.driver);
+    }*/
+
+    public Button getSubmitButton() {
+        return new Button(this.driver, this.rootSelector);
     }
 
     public LoginSection enterUsername(String Username) {

@@ -21,13 +21,12 @@ public class LoginPage {
 
     public LoginPage open() {
         this.driver.get(this.url);
-        return  this;
+        return this;
     }
 
     public LoginPage verifyTitleIs(String title) {
         String actualTitle = this.driver.findElement(TITLE_SELECTOR).getText();
         assertThat(actualTitle).isEqualTo(title);
-        return  this;
-
+        return this;
     }
 }
