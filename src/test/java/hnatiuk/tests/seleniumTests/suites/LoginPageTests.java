@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginPageTests extends TestService {
     private WebDriver driver;
 
-    //@Override
+    @Override
     @BeforeClass
     public void setUp() {
         System.out.println("In Before Class");
@@ -20,7 +20,7 @@ public class LoginPageTests extends TestService {
     void successfullyLoginWithValidUserCredentials() {
         LoginPage loginPage = new LoginPage(driver, "http://v3.test.itpmgroup.com");
         loginPage.open()
-                //.verifyTitleIs("Учет запчастей")
+                .verifyTitleIs("Учет запчастей")
                 .getLoginSection()
                 .enterUsername("Student")
                 .enterPassword("909090")

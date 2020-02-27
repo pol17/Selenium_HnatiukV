@@ -24,8 +24,10 @@ public class LoginPage {
         return  this;
     }
 
-    /*public LoginPage verifyTitleIs(String title) {
+    public LoginPage verifyTitleIs(String title) {
         String actualTitle = this.driver.findElement(TITLE_SELECTOR).getText();
-        //assertThat(actualTitle)
-    }*/
+        assertThat(actualTitle).isEqualTo(title);
+        return  this;
+
+    }
 }

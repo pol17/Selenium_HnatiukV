@@ -43,7 +43,7 @@ public class TestService {
 
     @AfterMethod
     public static void clearCookies() {
-        //getDriver().manage().deleteAllCookies();
+        getDriver().manage().deleteAllCookies();
     }
 
     @AfterSuite
