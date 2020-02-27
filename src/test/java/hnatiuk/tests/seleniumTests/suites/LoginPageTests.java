@@ -29,8 +29,8 @@ public class LoginPageTests extends TestService {
                 .getLoginSection()
                 .enterUsername(USERNAME)
                 .enterPassword(PASSWORD)
-                .getSubmitButton()
-                .clickSubmitButton();
+                .getSubmitButton();
+                //.clickSubmitButton();
     }
 
     @Test(dataProvider = "invalidUserCredentials")

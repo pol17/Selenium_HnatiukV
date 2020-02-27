@@ -3,6 +3,7 @@ package hnatiuk.api.components.buttons;
 import jdk.internal.loader.AbstractClassLoaderValue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import static org.assertj.core.api.Assertions.*;
 
 public class SubmitButton {
     private static final By SUBMIT_BUTTON_SELECTOR = By.cssSelector("button[type=\"submit\"]");

@@ -48,3 +48,29 @@
 2020-38-13 20:38:31 [main] INFO  SeleniumDemoTest:21 - Driver was initialized
 2020-38-13 20:38:31 [main] INFO  SeleniumDemoTest:23 - Configuring driver
 2020-38-13 20:38:35 [main] INFO  SeleniumDemoTest:26 - Driver was configured
+2020-57-27 21:57:48 [main] INFO  TestService:46 - Requesting driver
+2020-57-27 21:57:49 [main] INFO  WebDriverThread:85 - Current Browser Selection: CHROME
+2020-57-27 21:57:49 [main] INFO  WebDriverThread:86 - Current Operating System: WINDOWS 10
+2020-57-27 21:57:49 [main] INFO  WebDriverThread:87 - Current Architecture: amd64
+2020-57-27 21:57:49 [main] INFO  WebDriverThread:88 - Remote execution: false
+2020-57-27 21:57:58 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-57-27 21:57:58 [main] INFO  WebDriverManager:1077 - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2020-57-27 21:57:59 [main] INFO  Downloader:128 - Downloading https://chromedriver.storage.googleapis.com/80.0.3987.106/chromedriver_win32.zip
+2020-58-27 21:58:00 [main] INFO  Downloader:183 - Extracting binary from compressed file chromedriver_win32.zip
+2020-58-27 21:58:05 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\Acer\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-58-27 21:58:31 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-58-27 21:58:47 [main] INFO  TestService:46 - Requesting driver
+2020-58-27 21:58:47 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-58-27 21:58:49 [main] INFO  TestService:46 - Requesting driver
+2020-58-27 21:58:49 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-58-27 21:58:50 [main] INFO  TestService:46 - Requesting driver
+2020-58-27 21:58:50 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-58-27 21:58:51 [main] INFO  TestService:46 - Requesting driver
+2020-58-27 21:58:51 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-58-27 21:58:52 [main] INFO  TestService:46 - Requesting driver
+2020-58-27 21:58:52 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-58-27 21:58:53 [main] INFO  TestService:46 - Requesting driver
+2020-58-27 21:58:53 [main] INFO  WebDriverThread:44 - Driver has been obtained
+2020-58-27 21:58:53 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
+2020-58-27 21:58:55 [main] INFO  WebDriverThread:52 - Driver has been closed
+2020-58-27 21:58:55 [main] INFO  TestService:60 - Thread closed

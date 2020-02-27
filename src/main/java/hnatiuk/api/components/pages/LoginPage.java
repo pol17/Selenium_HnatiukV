@@ -3,6 +3,7 @@ package hnatiuk.api.components.pages;
 import hnatiuk.api.components.sections.LoginSection;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import static org.assertj.core.api.Assertions.*;
 
 public class LoginPage {
     private static final By TITLE_SELECTOR = By.className("login-logo");
