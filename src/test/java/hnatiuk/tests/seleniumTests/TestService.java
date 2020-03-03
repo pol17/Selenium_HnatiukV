@@ -1,18 +1,17 @@
 package hnatiuk.tests.seleniumTests;
 
 import hnatiuk.tests.seleniumTests.driver.WebDriverThread;
+import hnatiuk.tests.seleniumTests.listeners.ScreenshotListener;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 @Slf4j
+@Listeners(ScreenshotListener.class)
 public class TestService {
     // A list to store all instances of WebDriverThread
     // A thread won't be able to modify the list while another thread is currently running a method from this list.

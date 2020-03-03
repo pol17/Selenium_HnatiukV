@@ -1,7 +1,6 @@
-package hnatiuk.api.components.sections;
+package hnatiuk.tests.api.components.sections;
 
-import hnatiuk.api.components.buttons.Button;
-import hnatiuk.api.components.buttons.SubmitButton;
+import hnatiuk.tests.api.components.buttons.Button;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

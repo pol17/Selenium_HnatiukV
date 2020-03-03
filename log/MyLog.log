@@ -74,3 +74,126 @@
 2020-58-27 21:58:53 [main] INFO  TestService:57 - Closing threads within webDriverThreadPool
 2020-58-27 21:58:55 [main] INFO  WebDriverThread:52 - Driver has been closed
 2020-58-27 21:58:55 [main] INFO  TestService:60 - Thread closed
+2020-30-03 20:30:40 [main] INFO  TestService:45 - Requesting driver
+2020-30-03 20:30:40 [main] INFO  WebDriverThread:84 - Current Browser Selection: CHROME
+2020-30-03 20:30:40 [main] INFO  WebDriverThread:85 - Current Operating System: WINDOWS 10
+2020-30-03 20:30:40 [main] INFO  WebDriverThread:86 - Current Architecture: amd64
+2020-30-03 20:30:40 [main] INFO  WebDriverThread:87 - Remote execution: false
+2020-31-03 20:31:03 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-31-03 20:31:04 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\Acer\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-31-03 20:31:49 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-32-03 20:32:11 [main] INFO  TestService:45 - Requesting driver
+2020-32-03 20:32:11 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-32-03 20:32:11 [main] INFO  TestService:56 - Closing threads within webDriverThreadPool
+2020-32-03 20:32:12 [main] INFO  WebDriverThread:51 - Driver has been closed
+2020-32-03 20:32:12 [main] INFO  TestService:59 - Thread closed
+2020-59-03 20:59:01 [main] INFO  TestService:45 - Requesting driver
+2020-59-03 20:59:02 [main] INFO  WebDriverThread:84 - Current Browser Selection: CHROME
+2020-59-03 20:59:02 [main] INFO  WebDriverThread:85 - Current Operating System: WINDOWS 10
+2020-59-03 20:59:02 [main] INFO  WebDriverThread:86 - Current Architecture: amd64
+2020-59-03 20:59:02 [main] INFO  WebDriverThread:87 - Remote execution: false
+2020-59-03 20:59:04 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-59-03 20:59:05 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\Acer\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-59-03 20:59:31 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-59-03 20:59:40 [main] INFO  TestService:45 - Requesting driver
+2020-59-03 20:59:40 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-59-03 20:59:42 [main] INFO  TestService:45 - Requesting driver
+2020-59-03 20:59:42 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-59-03 20:59:43 [main] INFO  TestService:45 - Requesting driver
+2020-59-03 20:59:43 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-59-03 20:59:45 [main] INFO  TestService:45 - Requesting driver
+2020-59-03 20:59:45 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-59-03 20:59:47 [main] INFO  TestService:45 - Requesting driver
+2020-59-03 20:59:47 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-59-03 20:59:49 [main] INFO  TestService:45 - Requesting driver
+2020-59-03 20:59:49 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-59-03 20:59:49 [main] INFO  TestService:56 - Closing threads within webDriverThreadPool
+2020-59-03 20:59:50 [main] INFO  WebDriverThread:51 - Driver has been closed
+2020-59-03 20:59:50 [main] INFO  TestService:59 - Thread closed
+2020-24-03 21:24:55 [main] INFO  TestService:45 - Requesting driver
+2020-24-03 21:24:56 [main] INFO  WebDriverThread:84 - Current Browser Selection: CHROME
+2020-24-03 21:24:56 [main] INFO  WebDriverThread:85 - Current Operating System: WINDOWS 10
+2020-24-03 21:24:56 [main] INFO  WebDriverThread:86 - Current Architecture: amd64
+2020-24-03 21:24:56 [main] INFO  WebDriverThread:87 - Remote execution: false
+2020-24-03 21:24:58 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-24-03 21:24:58 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\Acer\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-25-03 21:25:19 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-25-03 21:25:23 [main] INFO  TestService:45 - Requesting driver
+2020-25-03 21:25:23 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-25-03 21:25:24 [main] INFO  TestService:56 - Closing threads within webDriverThreadPool
+2020-25-03 21:25:25 [main] INFO  WebDriverThread:51 - Driver has been closed
+2020-25-03 21:25:25 [main] INFO  TestService:59 - Thread closed
+2020-26-03 21:26:46 [main] INFO  TestService:45 - Requesting driver
+2020-26-03 21:26:46 [main] INFO  WebDriverThread:84 - Current Browser Selection: CHROME
+2020-26-03 21:26:46 [main] INFO  WebDriverThread:85 - Current Operating System: WINDOWS 10
+2020-26-03 21:26:46 [main] INFO  WebDriverThread:86 - Current Architecture: amd64
+2020-26-03 21:26:46 [main] INFO  WebDriverThread:87 - Remote execution: false
+2020-26-03 21:26:48 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-26-03 21:26:48 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\Acer\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-27-03 21:27:15 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-27-03 21:27:18 [main] INFO  TestService:45 - Requesting driver
+2020-27-03 21:27:18 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-27-03 21:27:18 [main] INFO  TestService:45 - Requesting driver
+2020-27-03 21:27:18 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-27-03 21:27:18 [main] INFO  TestService:45 - Requesting driver
+2020-27-03 21:27:18 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-27-03 21:27:18 [main] INFO  TestService:45 - Requesting driver
+2020-27-03 21:27:18 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-27-03 21:27:18 [main] INFO  TestService:45 - Requesting driver
+2020-27-03 21:27:18 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-27-03 21:27:18 [main] INFO  TestService:45 - Requesting driver
+2020-27-03 21:27:18 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-27-03 21:27:18 [main] INFO  TestService:56 - Closing threads within webDriverThreadPool
+2020-27-03 21:27:20 [main] INFO  WebDriverThread:51 - Driver has been closed
+2020-27-03 21:27:20 [main] INFO  TestService:59 - Thread closed
+2020-34-03 21:34:26 [main] INFO  TestService:45 - Requesting driver
+2020-34-03 21:34:26 [main] INFO  WebDriverThread:84 - Current Browser Selection: CHROME
+2020-34-03 21:34:26 [main] INFO  WebDriverThread:85 - Current Operating System: WINDOWS 10
+2020-34-03 21:34:26 [main] INFO  WebDriverThread:86 - Current Architecture: amd64
+2020-34-03 21:34:26 [main] INFO  WebDriverThread:87 - Remote execution: false
+2020-34-03 21:34:28 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-34-03 21:34:28 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\Acer\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-34-03 21:34:52 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-34-03 21:34:53 [main] INFO  TestService:45 - Requesting driver
+2020-34-03 21:34:53 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-34-03 21:34:54 [main] INFO  TestService:45 - Requesting driver
+2020-34-03 21:34:54 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-34-03 21:34:54 [main] INFO  TestService:45 - Requesting driver
+2020-34-03 21:34:54 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-34-03 21:34:54 [main] INFO  TestService:45 - Requesting driver
+2020-34-03 21:34:54 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-34-03 21:34:54 [main] INFO  TestService:45 - Requesting driver
+2020-34-03 21:34:54 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-34-03 21:34:54 [main] INFO  TestService:45 - Requesting driver
+2020-34-03 21:34:54 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-34-03 21:34:54 [main] INFO  TestService:56 - Closing threads within webDriverThreadPool
+2020-34-03 21:34:57 [main] INFO  WebDriverThread:51 - Driver has been closed
+2020-34-03 21:34:57 [main] INFO  TestService:59 - Thread closed
+2020-38-03 21:38:05 [main] INFO  TestService:45 - Requesting driver
+2020-38-03 21:38:05 [main] INFO  WebDriverThread:84 - Current Browser Selection: CHROME
+2020-38-03 21:38:05 [main] INFO  WebDriverThread:85 - Current Operating System: WINDOWS 10
+2020-38-03 21:38:05 [main] INFO  WebDriverThread:86 - Current Architecture: amd64
+2020-38-03 21:38:05 [main] INFO  WebDriverThread:87 - Remote execution: false
+2020-38-03 21:38:07 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-38-03 21:38:07 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\Acer\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-38-03 21:38:18 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-38-03 21:38:21 [main] INFO  TestService:45 - Requesting driver
+2020-38-03 21:38:21 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-38-03 21:38:21 [main] INFO  TestService:56 - Closing threads within webDriverThreadPool
+2020-38-03 21:38:23 [main] INFO  WebDriverThread:51 - Driver has been closed
+2020-38-03 21:38:23 [main] INFO  TestService:59 - Thread closed
+2020-00-03 22:00:45 [main] INFO  TestService:45 - Requesting driver
+2020-00-03 22:00:45 [main] INFO  WebDriverThread:84 - Current Browser Selection: CHROME
+2020-00-03 22:00:45 [main] INFO  WebDriverThread:85 - Current Operating System: WINDOWS 10
+2020-00-03 22:00:45 [main] INFO  WebDriverThread:86 - Current Architecture: amd64
+2020-00-03 22:00:45 [main] INFO  WebDriverThread:87 - Remote execution: false
+2020-00-03 22:00:49 [main] INFO  WebDriverManager:615 - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-00-03 22:00:49 [main] INFO  WebDriverManager:1113 - Exporting webdriver.chrome.driver as C:\Users\Acer\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-01-03 22:01:09 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-01-03 22:01:10 [main] INFO  TestService:45 - Requesting driver
+2020-01-03 22:01:10 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-01-03 22:01:11 [main] INFO  TestService:45 - Requesting driver
+2020-01-03 22:01:11 [main] INFO  WebDriverThread:43 - Driver has been obtained
+2020-01-03 22:01:11 [main] INFO  TestService:56 - Closing threads within webDriverThreadPool
+2020-01-03 22:01:12 [main] INFO  WebDriverThread:51 - Driver has been closed
+2020-01-03 22:01:12 [main] INFO  TestService:59 - Thread closed

@@ -1,6 +1,7 @@
-package hnatiuk.api.components.pages;
+package hnatiuk.tests.api.components.pages;
 
-import hnatiuk.api.components.sections.LoginSection;
+import hnatiuk.tests.api.components.sections.LoginSection;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import static org.assertj.core.api.Assertions.*;
@@ -24,6 +25,8 @@ public class LoginPage {
         this.driver.get(this.url);
         return this;
     }
+
+    @Step("Verify title is {0}") //allure annotation | {0} подтягивает title
 
     public LoginPage verifyTitleIs(String title) {
         String actualTitle = this.driver.findElement(TITLE_SELECTOR).getText();

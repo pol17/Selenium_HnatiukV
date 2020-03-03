@@ -1,6 +1,5 @@
-package hnatiuk.api.components.buttons;
+package hnatiuk.tests.api.components.buttons;
 
-import jdk.internal.loader.AbstractClassLoaderValue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import static org.assertj.core.api.Assertions.*;
