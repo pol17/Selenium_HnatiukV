@@ -27,7 +27,6 @@ public class LoginPage {
     }
 
     @Step("Verify title is {0}") //allure annotation | {0} подтягивает title
-
     public LoginPage verifyTitleIs(String title) {
         String actualTitle = this.driver.findElement(TITLE_SELECTOR).getText();
         assertThat(actualTitle).isEqualTo(title);
