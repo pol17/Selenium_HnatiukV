@@ -14,7 +14,7 @@
         <lombok.version>1.18.10</lombok.version>
         <testng.version>7.1.0</testng.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
-        <log4j.version>2.12.1</log4j.version>
+        <log4j.version>2.16.0</log4j.version>
         <maven-failsafe.version>3.0.0-M3</maven-failsafe.version>
         <aspectj.version>1.9.5</aspectj.version>
         <allure.version>2.13.2</allure.version>
